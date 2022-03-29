@@ -19,10 +19,10 @@ password_hard = ""
 if choose== "easy":
     for  i in range(0,p):
         password_easy += random.choice(letters)
-    for j in range(0,q):
+    for j in range(0,r):
         password_easy += random.choice(numbers)
    
-    for k in range(0,r):
+    for k in range(0,q):
         password_easy += random.choice(symbols)
         
     print(password_easy)
@@ -30,10 +30,10 @@ if choose== "easy":
 if choose == "hard":
     for  i in range(0,p):
         password.append(random.choice(letters))
-    for j in range(0,q):
+    for j in range(0,r):
         password.append(random.choice(numbers))
    
-    for k in range(0,r):
+    for k in range(0,q):
         password.append(random.choice(symbols))
     
     random.shuffle(password)
